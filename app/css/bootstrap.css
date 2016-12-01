@@ -80,7 +80,7 @@ hr {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 730px;
   }
 }
 @media (min-width: 992px) {
@@ -88,9 +88,14 @@ hr {
     width: 970px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1314px) {
   .container {
-    width: 1170px;
+    width: 1284px;
+  }
+}
+@media (min-width: 1720px) {
+  .container {
+    width: 1600px;
   }
 }
 .container-fluid {

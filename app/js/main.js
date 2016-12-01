@@ -1,6 +1,8 @@
 
 $(document).ready(function(){
 
+
+
 // $('#slider-1').bxSlider({
 // 		controls: true, 
 // 		pager: false,
@@ -56,5 +58,45 @@ $(document).ready(function(){
 //    $(".phone_mask_1").mask("+7(999) 999-9999");
 //    $("#phone_mask_2").mask("+7(999) 999-9999");
 // });
+
+});
+
+
+
+$(window).load(function() {
+
+
+ $('#flex-small').flexslider({
+   animation: "slide",
+   controlNav: false,
+   // directionNav: true,
+   // move: 1,
+
+   prevText: "",
+   nextText: "",  
+
+   animationLoop: false,
+   slideshow: false,
+   itemWidth: 205,
+   itemMargin: 10,
+   // maxItems: 7,
+   asNavFor: '#flex-slider'
+ });
+
+ $('#flex-slider').flexslider({
+   animation: "slide",
+   controlNav: false,
+    // directionNav: true,
+    // move: 1,
+
+    prevText: "",
+    nextText: "",  
+
+    animationLoop: false,
+    slideshow: false,
+    sync: "#flex-small"
+
+  });
+
 
 });
