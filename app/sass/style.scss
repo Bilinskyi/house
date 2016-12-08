@@ -541,7 +541,7 @@ header {
 		border-bottom: 1px solid #dedede;
 		position: relative;
 		@media #{$bp-blarge} {
-		      margin-top: 30px;
+			margin-top: 30px;
 		}
 		.current-js {
 			width: 195px;
@@ -784,7 +784,7 @@ header {
 	text-align: center;
 	@media #{$bp-blarge} {
 		font-size: 40px;
-		line-height: 55px;
+		line-height: 48px;
 	}
 	@media #{$bp-large} {
 		font-size: 32px;
@@ -822,7 +822,7 @@ header {
 .section-4 {
 	padding-top: 110px;
 	@media #{$bp-blarge} {
-	      padding-top: 70px;
+		padding-top: 70px;
 	}
 	.container {
 		position: relative;
@@ -831,8 +831,8 @@ header {
 		color: #010101;
 		margin-bottom: 95px;
 		@media #{$bp-blarge} {
-		      line-height: 50px;
-		      margin-bottom: 75px;
+			line-height: 50px;
+			margin-bottom: 75px;
 		}
 	}
 	.house-head {
@@ -842,8 +842,8 @@ header {
 		line-height: 30px;
 		margin: 58px 0 20px;
 		@media #{$bp-blarge} {
-		      margin-top: 50px;
-		      margin-bottom: 5px;
+			margin-top: 50px;
+			margin-bottom: 5px;
 		}
 	}
 	.house-sm {
@@ -858,7 +858,7 @@ header {
 	.form-house {
 		padding: 28px 54px 0;
 		@media #{$bp-blarge} {
-		      padding: 20px 40px 0;
+			padding: 20px 40px 0;
 		}
 		input:not([type=submit]) {
 			background-color: #fff;
@@ -980,7 +980,7 @@ header {
 	margin-top: 130px;
 	position: relative;
 	@media #{$bp-blarge} {
-	      margin-top: 105px;
+		margin-top: 105px;
 	}
 	.container {
 		position: relative;
@@ -1000,9 +1000,9 @@ header {
 		height: auto;
 		top: -90px;	
 		@media #{$bp-blarge} {
-		      width: 1125px;
-		      top: -100px;
-		      left: 90px;
+			width: 1125px;
+			top: -100px;
+			left: 90px;
 		}
 	}
 	.downl-dsc {
@@ -1043,7 +1043,7 @@ header {
 		padding: 49px 53px 60px;
 		border-radius: 10px;
 		@media #{$bp-blarge} {
-		      padding: 35px 15px 35px 35px;
+			padding: 35px 15px 35px 35px;
 		}
 		.button {
 			padding: 0 33px;
@@ -1074,12 +1074,12 @@ header {
 		ul.list-circle {
 			padding-bottom: 20px;
 			@media #{$bp-blarge} {
-			      padding-bottom: 8px;
+				padding-bottom: 8px;
 			}
 			&:last-of-type {
 				padding-bottom: 50px;
 				@media #{$bp-blarge} {
-				      padding-bottom: 25px;
+					padding-bottom: 25px;
 				}
 			}
 		}
@@ -1120,8 +1120,8 @@ ul.list-circle {
 	border: 1px solid #c5c5c5;
 	padding: 100px 0 115px;
 	@media #{$bp-blarge} {
-	      padding-top: 90px;
-	      padding-bottom: 95px;
+		padding-top: 90px;
+		padding-bottom: 95px;
 	}
 	.title-white {
 		color: #dfdfdf;
@@ -1296,7 +1296,7 @@ ul.list-circle {
 						color: #090909;
 						line-height: 24px;
 						@media #{$bp-blarge} {
-						      line-height: 20px;
+							line-height: 20px;
 						}
 						&:after {
 							top: 10px;
@@ -1315,13 +1315,13 @@ ul.list-circle {
 	background-image: linear-gradient(175deg, #f3f3f3 0%, white 100%);
 	padding-bottom: 100px;
 	@media #{$bp-blarge} {
-	      padding-bottom: 90px;
+		padding-bottom: 90px;
 	}
 	.container {
 		padding-top: 65px;
 		position: relative;
 		@media #{$bp-blarge} {
-		      padding-top: 49px;
+			padding-top: 49px;
 		}
 	}
 	.book3 {
@@ -1418,7 +1418,7 @@ ul.list-circle {
 	border-radius: 10px;
 	padding: 45px 50px 60px 50px;
 	@media #{$bp-blarge} {
-	      padding: 35px;
+		padding: 35px;
 	}
 }
 
@@ -1446,6 +1446,10 @@ ul.list-circle {
 .section-8 {
 	.hover-block {
 		padding: 55px 0 150px;
+		@media #{$bp-blarge} {
+		      padding-top: 40px;
+		      padding-bottom: 75px;
+		}
 	}
 	.bg-color {
 		background-color: #f1f1f1;
@@ -1455,6 +1459,9 @@ ul.list-circle {
 		padding-bottom: 80px;
 		opacity: .4;
 		transition: .15s;
+		@media #{$bp-blarge} {
+		      padding-top: 45px;
+		}
 		img {
 			max-width: 100%;
 			height: auto;
@@ -1473,6 +1480,7 @@ ul.list-circle {
 			@media #{$bp-blarge} {
 				width: 56px;
 				height: 56px;
+				margin-bottom: 23px;
 			}
 			span {
 				position: absolute;
@@ -1560,6 +1568,9 @@ ul.list-circle {
 .section-9 {
 	text-align: center;			
 	padding-bottom: 90px;
+	@media #{$bp-blarge} {
+	      padding-bottom: 70px;
+	}
 	.button {
 		padding: 0 32px;
 		@media #{$bp-blarge} {
@@ -1569,8 +1580,14 @@ ul.list-circle {
 	.row {
 		padding-bottom: 15px;
 		padding-top: 75px;
+		@media #{$bp-blarge} {
+		      padding-top: 60px;
+		}
 		&>div {
 			margin-bottom: 35px;
+			@media #{$bp-blarge} {
+			      margin-bottom: 17px;
+			}
 			&:nth-child(3n+1) {
 				clear: left;
 			}
@@ -1589,6 +1606,9 @@ ul.list-circle {
 		margin-top: 17px;
 		font-weight: 300;
 		text-align: center;
+		@media #{$bp-blarge} {
+		      margin-top: 13px;
+		}
 	}
 	.txt-md {
 		text-align: center;
@@ -1609,6 +1629,9 @@ ul.list-circle {
 .section-last {
 	background: rgba(235,235,235, .3);
 	padding: 40px 0;
+	@media #{$bp-blarge} {
+	      padding-bottom: 30px;
+	}
 	.header-form-title {
 		@media #{$bp-blarge} {
 			font-size: 27px;
@@ -1649,13 +1672,22 @@ ul.list-circle {
 	}
 	.form {
 		padding: 35px 40px 40px 70px;
+		@media #{$bp-blarge} {
+		      padding: 23px 83px 17px 50px;
+		}
 		.header-form-title {
 			margin-bottom: 18px;
+			@media #{$bp-blarge} {
+			      margin-bottom: 12px;
+			}
 		}
 		.head-form {
 			color: #564b3e;
 			margin-bottom: 25px;
 			font-weight: 300;
+			@media #{$bp-blarge} {
+			      margin-bottom: 10px;
+			}
 		}
 		input {
 			float: left;
@@ -1678,6 +1710,9 @@ footer {
 	background-color: #1c1c1c;
 	color: white;
 	padding: 30px 0;
+	@media #{$bp-blarge} {
+	      padding: 25px 0;
+	}
 	a {
 		color: white;
 		text-decoration: underline;
