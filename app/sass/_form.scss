@@ -20,11 +20,14 @@ input:not([type=submit]) {
         margin-bottom: 15px;
         font-size: 15px;
         padding-left: 39px;
+        border-radius: 8px;
   }
   @media #{$bp-large} {
         height: 37px;
         margin-bottom: 10px;
         font-size: 12px;
+        border-radius: 4px;
+        padding-left: 25px;
   }
   @media #{$bp-medium} {
         height: 27px;
@@ -111,6 +114,19 @@ font-size: 20px;
       line-height: 50px;
       letter-spacing: 1px;
       font-size: 18px;
+      border-radius: 8px;
+}
+@media #{$bp-large} {
+      height: 38px;
+      line-height: 38px;
+      font-size: 14px;
+      border-radius: 4px;
+}
+@media #{$bp-medium} {
+      height: 28px;
+      line-height: 28px;
+      font-size: 10px;
+      letter-spacing: 0;
 }
 &:hover {
   cursor: pointer;
