@@ -3,6 +3,20 @@
 :-moz-placeholder {color: rgba(74,74,74, .7); font-family: 'Roboto Condensed', sans-serif; font-size: 17px;font-weight: 400;}
 :-ms-input-placeholder {color: rgba(74,74,74, .7); font-family: 'Roboto Condensed', sans-serif; font-size: 17px;font-weight: 400;}
 
+@media #{$bp-blarge} {
+  ::-webkit-input-placeholder {font-size: 15px;}
+  ::-moz-placeholder {font-size: 15px;}
+  :-moz-placeholder {font-size: 15px;}
+  :-ms-input-placeholder {font-size: 15px;}
+}
+
+@media #{$bp-large} {
+        ::-webkit-input-placeholder {font-size: 12px;}
+  ::-moz-placeholder {font-size: 12px;}
+  :-moz-placeholder {font-size: 12px;}
+  :-ms-input-placeholder {font-size: 12px;}
+
+}
 
 *, *:before, *:after {
   box-sizing: border-box;
@@ -26,6 +40,7 @@ body {
   color: #161616;
   font-weight: 300;
   min-height: 1300px;
+  // overflow-x: hidden;
 }
 
 ul {
@@ -64,12 +79,12 @@ h1,h2,h3,h4,h5,h6 {
 
 .owl-carousel  .owl-wrapper,
 .owl-carousel  .owl-item{
--webkit-backface-visibility: hidden;
--moz-backface-visibility:    hidden;
--ms-backface-visibility:     hidden;
--webkit-transform: translate3d(0,0,0);
--moz-transform: translate3d(0,0,0);
--ms-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility:    hidden;
+  -ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
 }
 
 

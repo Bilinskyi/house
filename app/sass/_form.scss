@@ -15,6 +15,21 @@ input:not([type=submit]) {
   font-weight: 400;
 
   margin-bottom: 18px;
+  @media #{$bp-blarge} {
+        height: 49px;
+        margin-bottom: 15px;
+        font-size: 15px;
+        padding-left: 39px;
+  }
+  @media #{$bp-large} {
+        height: 37px;
+        margin-bottom: 10px;
+        font-size: 12px;
+  }
+  @media #{$bp-medium} {
+        height: 27px;
+        margin-bottom: 9px;
+  }
   &:last-child {
     margin-bottom: 0;
   }
@@ -84,12 +99,19 @@ border-radius: 10px;
 box-shadow: 0 1px 2px rgba(26, 26, 26, 0.77), inset 0 -4px 0 #df8108;
 text-decoration: none;
 
+letter-spacing: 1.8px;
 font-family: 'Roboto Condensed', sans-serif;
 font-weight: 700;
 text-transform: uppercase;
 text-shadow: 0 1px 0 rgba(255, 254, 255, 0.38);
 color: #7c4600;
 font-size: 20px;
+@media #{$bp-blarge} {
+      height: 50px;
+      line-height: 50px;
+      letter-spacing: 1px;
+      font-size: 18px;
+}
 &:hover {
   cursor: pointer;
 }
