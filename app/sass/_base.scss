@@ -71,3 +71,17 @@ h1,h2,h3,h4,h5,h6 {
 -moz-transform: translate3d(0,0,0);
 -ms-transform: translate3d(0,0,0);
 }
+
+
+.bg-white {
+  background-color: #fff;
+}
+
+
+.p-r-0 {
+  padding-right: 0 !important;
+  z-index: 2;
+  &+.bg-white {
+    padding-left: 50px;
+  }
+}
