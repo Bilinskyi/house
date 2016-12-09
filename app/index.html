@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>project</title>
-	<meta name="description" content=""> 
+	<title>Проектирование домов с нуля и изменение готовых проектов до полного согласования</title>
+	<meta name="description" content="От 100 рублей за квадратный метр. Делаем в течение 15 дней. Заключаем официальный договор. Делаем 3D-визуализации бесплатно."> 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link rel="icon" href="favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/style.css">
@@ -130,8 +130,10 @@
 				<div class="r-black-block all-form m-h-1">
 					<form class="" method="post" id="feedback-valid-1" action="sendmail.php">
 						<div class="head-form">Менеджер позвонит для уточнения информации<br> по вашему объекту</div>
-						<input type="tel" name="phone" placeholder="Введите ваш номер*">
+						<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер*">
 						<input type="email" name="email" placeholder="Введите ваш E-mail">  
+						<input type="hidden" name="formname" value="получить бесплатный эскиз вашего дома">  
+						<input type="hidden" name="popmain" value="">  
 						<button type="submit" class="button">Получить бесплатный эскиз</button>
 					</form> 
 				</div>
@@ -173,11 +175,11 @@
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 							<div class="wrapp-inline-block">
 								<div class="l-side">
-									<a href="" class="play various">
+									<a href="https://www.youtube.com/embed/XKkms6hYJQQ?autoplay=1" class="play various fancybox.iframe">
 										<img src="img/play.jpg" alt="" width="289" height="151">
 										<span>Видеоотзыв от заказчика</span>
 									</a>
-									<a href="" class="img-fancy"><img src="img/sert.jpg" alt="" width="107" height="142"></a>
+									<a href="img/book-sm-1.png" class="modal-form"><img src="img/sert.jpg" alt="" width="107" height="142"></a>
 								</div>
 								<div class="r-side">
 									<div class="sl-head">Стоимость проекта:</div>
@@ -186,7 +188,7 @@
 							</div>
 						</div>
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 padding-slider-more pull-right">
-							<a href="#" class="button">Рассчитать мой проект</a>
+							<a href="#count-price" class="button modal-form">Рассчитать мой проект</a>
 						</div>
 					</div>	
 				</div>	
@@ -219,11 +221,11 @@
 						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
 							<div class="wrapp-inline-block">
 								<div class="l-side">
-									<a href="" class="play various">
+									<a href="https://www.youtube.com/embed/XKkms6hYJQQ?autoplay=1" class="play various fancybox.iframe">
 										<img src="img/play.jpg" alt="" width="289" height="151">
 										<span>Видеоотзыв от заказчика</span>
 									</a>
-									<a href="" class="img-fancy"><img src="img/sert.jpg" alt="" width="107" height="142"></a>
+									<a href="img/book-sm-1.png" class="modal-form"><img src="img/sert.jpg" alt="" width="107" height="142"></a>
 								</div>
 								<div class="r-side">
 									<div class="sl-head">Стоимость проекта:</div>
@@ -232,56 +234,10 @@
 							</div>
 						</div>
 						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 padding-slider-more pull-right">
-							<a href="#" class="button">Рассчитать мой проект</a>
+							<a href="#count-price" class="button modal-form">Рассчитать мой проект</a>
 						</div>
 					</div>	
-				</div>		
-				<div class="item">
-					<div class="row">
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<div class="img-lg">
-								<img src="img/slider-1.jpg" alt="" width="738" height="410">
-							</div>
-						</div>
-						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 padding-slider-more pull-right">
-							<div class="sl-lg">
-								Загородный дом<br>
-								в Якутске 240 кв.м.
-							</div>
-							<div class="sl-head">Пожелания заказчика:</div>
-							<p>
-								«...у нас зимой до -50 градусов. Спроектируйте, пожалуйста, дом таким, чтобы можно было спокойно переносить такие низкие температуры...»
-							</p>
-							<div class="sl-head">Решение:</div>
-							<p>
-								Проект разработан «под ключ». Подобраны материалы, для условий низких температур. Спроектирована особая система отопления.
-							</p>
-							<div class="sl-head">Информация о проекте:</div>
-							<p>
-								Материалы: Клееный брус, базальтовый утеплитель
-								Сроки: Разработан за 13 дней
-							</p>
-						</div>
-						<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
-							<div class="wrapp-inline-block">
-								<div class="l-side">
-									<a href="" class="play various">
-										<img src="img/play.jpg" alt="" width="289" height="151">
-										<span>Видеоотзыв от заказчика</span>
-									</a>
-									<a href="" class="img-fancy"><img src="img/sert.jpg" alt="" width="107" height="142"></a>
-								</div>
-								<div class="r-side">
-									<div class="sl-head">Стоимость проекта:</div>
-									<div class="sl-price">24 880 рублей</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 padding-slider-more pull-right">
-							<a href="#" class="button">Рассчитать мой проект</a>
-						</div>
-					</div>	
-				</div>	
+				</div>
 			</div>
 			<div class="line-current"><div class="current-js"></div></div>
 		</div>
@@ -307,8 +263,9 @@
 							<div class="house-sm">
 								Оставьте заявку и менеджер разоберет возможные<br> ошибки на примере именно вашего дома
 							</div>
-							<form class="form form-house" method="post" id="feedback-valid-2" action="sendmail.php">
-								<input type="tel" name="phone" placeholder="Введите ваш номер*">
+							<form class="form form-house" method="post" id="feedback-valid-pr" action="sendmail.php">
+								<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер*">
+								<input type="hidden" name="formname" value="возможные ошибки на примере именно вашего дома">  
 								<button type="submit" class="button">Отправить заявку</button>
 							</form> 
 						</div>
@@ -366,7 +323,7 @@
 							<li>Основные конструктивные узлы и детали</li>
 							<li>Спецификации</li>
 						</ul>
-						<a href="#" class="button">Скачать пример проекта, 1.4 Mb</a>
+						<a href="img/comment.jpg" download target="_blank" class="button">Скачать пример проекта, 1.4 Mb</a>
 					</div>
 				</div>
 			</div>
@@ -381,9 +338,9 @@
 				<div class="curr"><span></span></div>
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 p-r-0 m-h-2">
 					<ul class="tabs-caption">
-						<li><span>1 день</span>Составление технического задания</li>
+						<li class="active"><span>1 день</span>Составление технического задания</li>
 						<li><span>3 дня</span>Разработка эскизного проекта</li>
-						<li class="active"><span>5 дней</span>Формирование архитектурных решений</li>
+						<li><span>5 дней</span>Формирование архитектурных решений</li>
 						<li><span>6 дней</span>Разработка конструктивных решений</li>
 						<li><span>8 дней</span>Составление инженерной документации</li>
 					</ul>
@@ -396,12 +353,12 @@
 								<p>
 									Задаются проектные отметки основных  элементов здания, разработка узлов, проставляются размерные цепочки.  Производится деталировка декоративных элементов фасада. Формируется  рабочая документация и архитектурно-строительные чертежи.
 								</p>
-								<img src="img/book-sm-1.png" alt="" width="536" height="367">
+								<img src="img/book-sm-1.png" alt="" width="442" height="241">
 								<ul class="list-circle">
 									<li>Основные строительные показатели</li>
 									<li>Экспликация полов</li>
 									<li>Ведомость отделки помещений</li>
-									<li>Спецификации заполнения оконных и дверных <br>проемов</li>
+									<li>Спецификации заполнения оконных и дверных <br> проемов</li>
 									<li>Вентиляционные стояки</li>
 									<li>Поэтажные планы</li>
 									<li>Фасады</li>
@@ -420,7 +377,7 @@
 								<p>
 									Задаются проектные отметки основных  элементов здания, разработка узлов, проставляются размерные цепочки.  Производится деталировка декоративных элементов фасада. Формируется  рабочая документация и архитектурно-строительные чертежи.
 								</p>
-								<img src="img/book-sm-1.png" alt="" width="536" height="367">
+								<img src="img/book-sm-1.png" alt="" width="442" height="241">
 								<ul class="list-circle">
 									<li>Основные строительные показатели</li>
 									<li>Экспликация полов</li>
@@ -444,7 +401,7 @@
 								<p>
 									Задаются проектные отметки основных  элементов здания, разработка узлов, проставляются размерные цепочки.  Производится деталировка декоративных элементов фасада. Формируется  рабочая документация и архитектурно-строительные чертежи.
 								</p>
-								<img src="img/book-sm-1.png" alt="" width="536" height="367">
+								<img src="img/book-sm-1.png" alt="" width="442" height="241">
 								<ul class="list-circle">
 									<li>Основные строительные показатели</li>
 									<li>Экспликация полов</li>
@@ -468,7 +425,7 @@
 								<p>
 									Задаются проектные отметки основных  элементов здания, разработка узлов, проставляются размерные цепочки.  Производится деталировка декоративных элементов фасада. Формируется  рабочая документация и архитектурно-строительные чертежи.
 								</p>
-								<img src="img/book-sm-1.png" alt="" width="536" height="367">
+								<img src="img/book-sm-1.png" alt="" width="442" height="241">
 								<ul class="list-circle">
 									<li>Основные строительные показатели</li>
 									<li>Экспликация полов</li>
@@ -492,7 +449,7 @@
 								<p>
 									Задаются проектные отметки основных  элементов здания, разработка узлов, проставляются размерные цепочки.  Производится деталировка декоративных элементов фасада. Формируется  рабочая документация и архитектурно-строительные чертежи.
 								</p>
-								<img src="img/book-sm-1.png" alt="" width="536" height="367">
+								<img src="img/book-sm-1.png" alt="" width="442" height="241">
 								<ul class="list-circle">
 									<li>Основные строительные показатели</li>
 									<li>Экспликация полов</li>
@@ -525,9 +482,10 @@
 					<div class="unl">При заказе готового проекта, <br>время сокращается до 5 дней!</div>
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-					<form class="form form-dashed" method="post" id="feedback-valid-2" action="sendmail.php">
+					<form class="form form-dashed" method="post" id="feedback-valid-info" action="sendmail.php">
 						<div class="header-form-title">Менеджер позвонит вам для уточнения <br>информации по вашему объекту</div>
-						<input type="tel" name="phone" placeholder="Введите ваш номер*">
+						<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер*">
+						<input type="hidden" name="formname" value="уточнения информации по вашему объекту">  
 						<button type="submit" class="button">Отправить заявку на проектирование</button>
 					</form> 
 				</div>
@@ -544,28 +502,36 @@
 					<div class="bg-color">
 						<i class="circle-orange"><span class="ico-h-1"></span></i>
 						<h6>Доступ к системе контроля <br>работы на каждом этапе</h6>
-						<a href="" class="img-fancy"><img src="img/img-fancy-1.jpg" alt="" width="301" height="143"></a>
+						<div class="wrapp-match">
+							<a href="img/comment.jpg" class="modal-form" data-fancybox-group="gall"><img src="img/img-fancy-1.jpg" alt="" width="301" height="143"></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 m-h-3 item">
 					<div class="bg-color">
 						<i class="circle-orange"><span class="ico-h-2"></span></i>
 						<h6>Заключаем официальный<br> договор</h6>
-						<a href="" class="img-fancy"><img src="img/img-fancy-1.jpg" alt="" width="301" height="143"></a>
+						<div class="wrapp-match">
+							<a href="img/comment.jpg" class="modal-form" data-fancybox-group="gall"><img src="img/img-fancy-2.jpg" alt="" width="166" height="235"></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 m-h-3 item">
 					<div class="bg-color">
 						<i class="circle-orange"><span class="ico-h-3"></span></i>
 						<h6>Имеем допуск <br>к работам по составлению<br> проектной документации</h6>
-						<a href="" class="img-fancy"><img src="img/img-fancy-1.jpg" alt="" width="301" height="143"></a>
+						<div class="wrapp-match">
+							<a href="img/comment.jpg" class="modal-form" data-fancybox-group="gall"><img src="img/img-fancy-3.jpg" alt="" width="171" height="237"></a>
+						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 m-h-3 item">
 					<div class="bg-color">
 						<i class="circle-orange"><span class="ico-h-4"></span></i>
 						<h6>Проектируем <br>по общепринятым <br>ГОСТам</h6>
-						<a href="" class="img-fancy"><img src="img/img-fancy-1.jpg" alt="" width="301" height="143"></a>
+						<div class="wrapp-match">
+							<a href="img/comment.jpg" class="modal-form" data-fancybox-group="gall"><img src="img/img-fancy-4.png" alt="" width="278" height="202"></a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -623,7 +589,7 @@
 					<div class="txt-md">556 кв.м.</div>
 				</div>
 			</div>
-			<a href="#" class="button">Скачать каталог готовых проектов,  2.3 Mb</a>
+			<a href="#form-catalog" class="button modal-form">Скачать каталог готовых проектов,  2.3 Mb</a>
 		</div>
 	</section>
 
@@ -641,11 +607,12 @@
 					</div>
 				</div>
 				<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
-					<form class="form form-dashed" method="post" id="feedback-valid-2" action="sendmail.php">
+					<form class="form form-dashed" method="post" id="feedback-valid-question" action="sendmail.php">
 						<div class="header-form-title">Остались вопросы по проектам?</div>
 						<div class="head-form">Оставьте номер телефона и наш главный архитектор свяжется с вами, чтобы ответить<br> на возникшие вопросы</div>
 						<div class="clearfix">
-							<input type="tel" name="phone" placeholder="Введите ваш номер телефона*">
+							<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер телефона*">
+							<input type="hidden" name="formname" value="вопросы по проектам">  
 							<button type="submit" class="button">Получить консультацию</button>
 						</div>
 					</form> 
@@ -660,13 +627,13 @@
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<div class="footer-l">
 						<div class="copy">©2016 ООО «Компания»</div>
-						<a href="#politic" class="politic">Политика конфиденциальности</a>
+						<a href="#politic" class="politic modal-form">Политика конфиденциальности</a>
 					</div>	
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 					<div class="footer-r">
 						<div class="phone-footer">8 (800) 250-55-51</div>
-						<a href="#call" class="link-foot">Заказать звонок</a>
+						<a href="#call" class="modal-form link-foot">Заказать звонок</a>
 					</div>	
 				</div>
 			</div>
@@ -675,21 +642,105 @@
 
 
 
+	<div id="politic" class="none-block">
+		<h2>Политика обработки персональных данных </h2>
+
+
+		<p>Политика в отношении обработки персональных данных определяет основные принципы и правила по обработке персональных данных, которыми мы руководствуемся в нашей работе, а также в общении с клиентами, поставщиками и сотрудниками. Политика в отношении обработки персональных данных распространяется на всех наших сотрудников. При обработке персональных данных мы стремимся соблюдать требования законодательства Российской Федерации, в частности Федеральный закон № 152-ФЗ «О персональных данных», а также нормы и правила, установленные в нашей компании. </p>
+
+
+		<h3>С какой целью собираются эти данные</h3>
+
+
+		<p>Имя используется для обращения лично к вам, а ваш e-mail для отправки вам писем рассылок, новостей тренинга, полезных материалов, коммерческих предложений. Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
+
+
+		<h3>Как эти данные используются</h3>
+
+
+		<p>На сайте используются куки (Cookies) и данные о посетителях сервиса Google Analytics и Яндекс Метрика. При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей. Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не смогут работать должным образом.</p>
+
+
+		<h3>Как эти данные защищаются</h3>
+
+
+		<p>Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и технические меры безопасности. Наша Компания придерживается различных международных стандартов контроля, направленных на операции с личной информацией, которые включают определенные меры контроля по защите информации, собранной в Интернет. Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим Уведомлением о конфиденциальности, нормами и инструкциями.</p>
+
+
+		<p>Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее. Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем.</p>
+
+
+		<p>Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций.</p>
+
+		<p>Для связи с администратором сайта по любым вопросам вы можете написать письмо на e-mail: <a href="mailto:info@site.ru">info@site.ru</a></p>
+
+	</div>
+
+
+	<div class="pop-up-form none-block" id="call">
+		<div class="pop-up-form-title">Закажите обратный звонок</div>
+		<form method="post" id="feedback-valid-call" action="sendmail.php">
+			<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер*">
+			<div class="pop-up-form-sm">Когда вам позвонить?</div>
+			<div class="clearfix timecall">
+				<ul class="tabs-caption-call clearfix">
+					<li class="active">Сейчас</li>
+					<li>По времени</li>
+				</ul>
+				<div class="tabs-content-input active">
+					
+				</div>
+				<div class="tabs-content-input">
+					<input type="text" name="time" placeholder="Введите время удобное для вас">	
+				</div>
+			</div>
+			<input type="email" name="email" placeholder="Введите ваш E-mail">  
+			<input type="hidden" name="formname" value="Заказ звонка">
+			<input type="hidden" name="popup" value="">
+			<button type="submit" class="button">Заказать звонок</button>
+		</form>
+	</div>
+
+
+
+
+
+
+
+	<div class="pop-up-form none-block" id="count-price">
+		<div class="pop-up-form-title">Расчитать предварительную <br>стоимость вашего проекта</div>
+		<div class="pop-up-form-dsc">Оставьте заявку в форме, менеджер перезвонит<br> вам для уточнения информации и пожеланий</div>
+		<form method="post" id="feedback-valid-count" action="sendmail.php">
+			<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер*">
+			<input type="hidden" name="formname" value="Расчитать предварительную стоимость вашего проекта">
+			<button type="submit" class="button">Отправить заявку</button>
+		</form>
+	</div>
+
+
+	<div class="pop-up-form none-block" id="form-catalog">
+		<div class="pop-up-form-title">Оставьте заявку, чтобы скачать <br>каталог готовых проектов</div>
+		<div class="pop-up-form-dsc">Менеджер перезвонит вам для уточнения пожеланий</div>
+		<form method="post" id="feedback-valid-catalog" action="sendmail.php">
+			<input type="tel" class="mask" name="phone" placeholder="Введите ваш номер*">
+			<input type="email" name="email" placeholder="Введите ваш E-mail">  
+			<input type="hidden" name="catalog" value="">
+			<input type="hidden" name="formname" value="СКАЧАТЬ КАТАЛОГ ГОТОВЫХ ПРОЕКТОВ, 2.3 MB">
+			<button type="submit" class="button">Отправить заявку</button>
+		</form>
+	</div>
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
+<!-- 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.fancybox.pack.js"></script>
 	<script src="js/check_ajax.js"></script>       
 	<script src="js/jquery.maskedinput.js"></script>   
 	<script src="js/jquery.form.js"></script>       
 	<script src="js/jquery.validate.js"></script>     
 	<script src="js/jquery.matchHeight.js"></script>
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script> -->
+	<script src="js/libs.min.js"></script>
 	<script src="js/main.js"></script>
 
-<!-- <script src="http://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU" type="text/javascript"></script>
-	<script src="js/yandex.js"></script>   	YANDEX MAP-->
-
-<!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?libraries=places&sensor=true"></script>
-	<script src="js/map_google.js"></script> GOOGLE MAP-->
 </body>
 </html>

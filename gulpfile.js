@@ -11,6 +11,7 @@ imageop = require('gulp-image-optimization'),
 del         = require('del'), 
 autoprefixer = require('gulp-autoprefixer'),
 spritesmith  = require('gulp.spritesmith'),
+tiny = require('gulp-tinypng-nokey'),
 cleanCSS = require('gulp-clean-css');
 
 
@@ -33,6 +34,11 @@ gulp.task('browserSync', function() {
 //     });
 // });
 
+gulp.task('tiny', function(cb) {
+    gulp.src('app/img/*')
+        .pipe(tiny())
+        .pipe(gulp.dest('image'));
+});
 
 gulp.task('images', function(cb) {
 	gulp.src(['app/img/**/*.png','app/img/**/*.jpg','app/img/**/*.gif','app/img/**/*.jpeg']).pipe(imageop({
