@@ -1,6 +1,10 @@
 
 $(document).ready(function(){
 
+	$('.wrapp-match a').on('click', function(e) {
+	 e.preventDefault(); 
+	});
+
 	$('input,textarea').focus(function(){
 		$(this).data('placeholder',$(this).attr('placeholder'))
 		.attr('placeholder','');
@@ -37,6 +41,9 @@ $(document).ready(function(){
 	get_border('.tabs-caption li.active', '.tabs-caption li');
 
 	$('.tabs-caption').on('click', 'li:not(.active)', function() {
+
+
+
 		$(this)
 		.addClass('active').siblings().removeClass('active')
 		.closest('div.tabs-main').find('.tabs-content').removeClass('active').css({opacity: '0',display: 'none'}).eq($(this).index()).addClass('active').css('display', 'block').animate({opacity: '1'}, 300);
@@ -46,6 +53,10 @@ $(document).ready(function(){
 		var allItem2 = $('.tabs-caption li').length;
 		var currenItem2 = $('.tabs-caption li.active').index() +1;
 		$('.curr span').html(currenItem2 + ' / ' + allItem2);
+
+			$('.m-h-2').matchHeight({
+		byRow: true
+	});	
 	})
 
 
@@ -96,6 +107,8 @@ $(document).ready(function(){
 
 	$('#flex-slider').flexslider({
 		animation: "slide",
+		smoothHeight: true,
+		animationSpeed: "400",
 		controlNav: false,
 		// directionNav: true,
 		// move: 1,

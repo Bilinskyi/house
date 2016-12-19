@@ -6,6 +6,31 @@
 @import "_form.scss";
 
 
+.col-lg-7.m-h-2 {
+	padding-bottom: 15px;
+}
+.cl-if {
+	clear: right;
+}
+
+.w100 {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+
+.wrapp-match {
+	a:hover {
+		cursor: default;
+	}
+}
+
+.mw54 {
+	max-width: 54%;
+	@media #{$bp-small} {
+	      max-width: 100%;
+	}
+}
+
 
 header {
 	padding-top: 20px;
@@ -1322,19 +1347,6 @@ header {
 			.house-center {
 				position: relative;
 				margin-top: 20px;
-				&:after {
-					content: '';
-					display: block;
-					position: absolute;
-					height: 100%;
-					width: 3px;
-					margin-left: auto;
-					margin-right: auto;
-					left: 0;
-					right: 0;
-					bottom: 20px;
-					border: 3px dashed #ffb232;
-				}
 				img {
 					display: block;
 					margin-left: auto;
@@ -1979,8 +1991,12 @@ header {
 						height: 100%;
 						.t-cell {
 							display: table-cell;
-							vertical-align: middle;
+							vertical-align: top;
+							padding-top: 25px;
 							position: relative;
+							@media #{$bp-blarge} {
+							      padding-top: 15px;
+							}
 							img {
 								display: block;
 								position: absolute;
